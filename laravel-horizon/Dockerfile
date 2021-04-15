@@ -329,4 +329,5 @@ RUN php -v | head -n 1 | grep -q "PHP ${PHP_VERSION}."
 #--------------------------------------------------------------------------
 #
 
+EXPOSE 6001
 WORKDIR /etc/supervisor/conf.d/
